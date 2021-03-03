@@ -1,0 +1,27 @@
+{
+  "name": "projeto-datum",
+  "version": "1.0.0",
+  "description": "This project is a Test Automation for Datum!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:chrome": "cypress run --browser chrome --no-exit",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "author": "thifalo02",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thifalo02/cypress/issues"
+  },
+  "homepage": "https://github.com/thifalo02/cypress#readme",
+  "dependencies": {
+    "cypress": "^6.6.0"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  }
+}
