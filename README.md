@@ -1,4 +1,4 @@
-# DATUM TEST PROJECT
+# DATUM TEST PROJECT (CYPRESS and CUCUMBER)
 This project is dedicated to automation test execution.
 
 ## Project Structure
